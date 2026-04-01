@@ -1,9 +1,10 @@
 using GamesApi.Models;
 using Microsoft.VisualBasic;
 namespace GamesApi.Data;
+
 public static class GameStore
 {
-    private static int _nextId = 4;
+    private static int _nextId = 5;
     public static List<Game> Games { get; } = new()
     {
         new Game
