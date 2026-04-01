@@ -12,28 +12,32 @@ public static class GameStore
             Id = 1,
             Title = "Onmyoji",
             Genre = "RPG",
-            ReleaseYear = 2018
+            ReleaseYear = 2018,
+            IsFavourite = true
         },
         new Game
         {
             Id = 2,
             Title = "Dota 2",
             Genre = "MOBA",
-            ReleaseYear = 2013
+            ReleaseYear = 2013,
+            IsFavourite = false
         },
         new Game
         {
             Id = 3,
             Title = "Cookie Run: Kingdom",
             Genre = "RPG",
-            ReleaseYear = 2021
+            ReleaseYear = 2021,
+            IsFavourite = false
         },
         new Game
         {
             Id = 4,
             Title = "Zenless Zone Zero",
             Genre = "Action-RPG",
-            ReleaseYear = 2024
+            ReleaseYear = 2024,
+            IsFavourite = false
         },
     };
     public static int NextId() => _nextId++;
